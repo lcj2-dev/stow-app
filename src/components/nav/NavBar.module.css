@@ -9,3 +9,7 @@
 .navbar span:first-child {
   font-weight: bold;
 }
+
+.navbar span:last-child {
+  font-style: italic;
+}

@@ -1,0 +1,5 @@
+.content {
+  background-color: var(--color-secondary);
+  padding: var(--space-default);
+  border-radius: 4px;
+}

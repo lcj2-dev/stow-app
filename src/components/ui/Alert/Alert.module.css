@@ -1,0 +1,9 @@
+.alert {
+  background: var(--color-danger);
+  padding: var(--space-default);
+  border-radius: 4px;
+}
+
+.alert span {
+  font-style: italic;
+}
