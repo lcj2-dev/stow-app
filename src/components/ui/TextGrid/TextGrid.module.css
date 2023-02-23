@@ -1,0 +1,12 @@
+.textRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textRow:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.textRow span:last-child {
+  font-weight: bold;
+}
