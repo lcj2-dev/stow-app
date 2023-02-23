@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "text": "Bin Info",
+      "path": "/bin"
+    },
+    {
+      "text": "Container Info",
+      "path": "/container"
+    },
+    {
+      "text": "Session Info",
+      "path": "/session"
+    },
+    {
+      "text": "Area Info",
+      "path": "/area"
+    }
+  ]
+}

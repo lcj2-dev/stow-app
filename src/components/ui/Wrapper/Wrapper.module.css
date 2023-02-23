@@ -1,3 +1,7 @@
 .wrapper {
   padding: var(--space-default);
 }
+
+.wrapper a:not(:first-child) button {
+  margin-top: var(--space-default);
+}

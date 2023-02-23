@@ -6,5 +6,5 @@ interface Props {
 }
 
 export const Button = ({ children }: Props): JSX.Element => {
-  return <button>{children}</button>;
+  return <button className={styles.button}>{children}</button>;
 };
