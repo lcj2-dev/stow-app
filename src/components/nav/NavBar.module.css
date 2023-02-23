@@ -1,0 +1,11 @@
+.navbar {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  padding: var(--space-default);
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar span:first-child {
+  font-weight: bold;
+}

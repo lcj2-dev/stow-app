@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #232f3e;
+  --color-light: #fff;
+  --space-default: 1.1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
