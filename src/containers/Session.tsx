@@ -7,6 +7,7 @@ import {
   TextGrid,
   TextList
 } from '../components';
+import { AlertType } from '../typescript/enums';
 
 export const Session = (): JSX.Element => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -57,7 +58,7 @@ export const Session = (): JSX.Element => {
               </Content>
             </Fragment>
           ) : (
-            <Alert>
+            <Alert type={AlertType.warning}>
               User <span>pawemala</span> has no active sessions
             </Alert>
           )}

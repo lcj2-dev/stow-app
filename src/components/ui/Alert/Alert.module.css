@@ -1,9 +1,18 @@
 .alert {
-  background: var(--color-danger);
+  background: var(--color-light);
   padding: var(--space-default);
   border-radius: 4px;
+  margin-bottom: var(--space-default);
 }
 
 .alert span {
   font-style: italic;
+}
+
+.warning {
+  background: var(--color-warning);
+}
+
+.success {
+  background: var(--color-success);
 }
