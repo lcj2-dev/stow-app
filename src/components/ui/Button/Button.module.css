@@ -7,6 +7,6 @@
   width: 100%;
 }
 
-.button:not(:first-child) {
-  margin-top: var(--space-default);
+.button:not(:last-child) {
+  margin-bottom: var(--space-default);
 }

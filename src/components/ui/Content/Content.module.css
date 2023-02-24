@@ -3,3 +3,7 @@
   padding: var(--space-default);
   border-radius: 4px;
 }
+
+.content:not(:first-child) {
+  margin-top: var(--space-default);
+}

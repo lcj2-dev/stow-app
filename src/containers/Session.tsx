@@ -27,15 +27,19 @@ export const Session = (): JSX.Element => {
       ) : (
         <Fragment>
           {sessionExists ? (
-            <Content>
-              <TextGrid
-                content={[
-                  ['Total containers', '9'],
-                  ['Stowed units', '183'],
-                  ['Units left', '10']
-                ]}
-              />
-            </Content>
+            <Fragment>
+              <Content>
+                <TextGrid
+                  content={[
+                    ['Total containers', '9'],
+                    ['Stowed units', '183'],
+                    ['Units left', '10']
+                  ]}
+                />
+              </Content>
+
+              <Content>container list</Content>
+            </Fragment>
           ) : (
             <Alert>
               User <span>pawemala</span> has no active sessions

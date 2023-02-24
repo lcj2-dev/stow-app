@@ -5,3 +5,4 @@ export * from './Loader';
 export * from './Alert';
 export * from './Content';
 export * from './TextGrid';
+export * from './Input';
