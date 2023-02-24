@@ -5,5 +5,5 @@
 }
 
 .content:not(:first-child) {
-  margin-top: var(--space-default);
+  margin-bottom: var(--space-default);
 }

@@ -9,8 +9,8 @@ export const Home = (): JSX.Element => {
   return (
     <Wrapper>
       {routes.map((r: HomeRoute, idx) => (
-        <Link to={r.path}>
-          <Button key={idx}>{r.text}</Button>
+        <Link to={r.path} key={idx}>
+          <Button>{r.text}</Button>
         </Link>
       ))}
     </Wrapper>

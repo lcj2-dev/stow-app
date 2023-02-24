@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import { NavBar } from './components';
-import { Home, Bin, Session } from './containers';
+import { Home, Bin, Session, Container } from './containers';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
@@ -15,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: '/session',
     element: <Session />
+  },
+  {
+    path: '/container',
+    element: <Container />
   }
 ]);
 

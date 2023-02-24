@@ -6,3 +6,4 @@ export * from './Alert';
 export * from './Content';
 export * from './TextGrid';
 export * from './Input';
+export * from './TextList';

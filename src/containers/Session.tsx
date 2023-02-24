@@ -1,5 +1,12 @@
 import { Fragment, useEffect, useState } from 'react';
-import { Loader, Wrapper, Alert, Content, TextGrid } from '../components';
+import {
+  Loader,
+  Wrapper,
+  Alert,
+  Content,
+  TextGrid,
+  TextList
+} from '../components';
 
 export const Session = (): JSX.Element => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -31,14 +38,23 @@ export const Session = (): JSX.Element => {
               <Content>
                 <TextGrid
                   content={[
-                    ['Total containers', '9'],
-                    ['Stowed units', '183'],
-                    ['Units left', '10']
+                    ['Total containers', 4],
+                    ['Stowed units', 183],
+                    ['Units left', 10]
                   ]}
                 />
               </Content>
 
-              <Content>container list</Content>
+              <Content>
+                <TextList
+                  content={[
+                    'csX0000001',
+                    'csX0000002',
+                    'csX0000003',
+                    'csX0000004'
+                  ]}
+                />
+              </Content>
             </Fragment>
           ) : (
             <Alert>
